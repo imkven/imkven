@@ -9,11 +9,14 @@ The default [wintersmith](https://github.com/jnordberg/wintersmith) template
 $ wintersmith preview
 ```
 
-# Build and Deploy
+# Build
 
 ```bash
 $ wintersmith build
+$ git add -A
+$ git commit -m "Post: new"
 $ cp -R ./build/* ../imkven.github.io
-$ git status
-
 ```
+
+# Deploy
+Use Github app to deploy.
