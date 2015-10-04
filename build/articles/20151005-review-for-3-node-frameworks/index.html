@@ -4,28 +4,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
-    <title>I'm Kven
+    <title>三个Node框架使用过后的心得 - I'm Kven
     </title>
     <link rel="alternate" href="http://imkven.github.io/feed.xml" type="application/rss+xml" title="">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
     <link rel="stylesheet" href="/css/main.css">
   </head>
-  <body>
+  <body class="article-detail">
     <header class="header">
       <div class="content-wrap">
-        <div class="logo">
-          <h1><a href="http://imkven.github.io">I'm Kven</a></h1>
-          <p class="description"></p>
-        </div>
+        <h1>三个Node框架使用过后的心得</h1>
+        <p class="author">Written by <span class="author"><a href="mailto:hide@ema.il">Kven Ho</a></span>
+        </p>
       </div>
     </header>
     <div id="content">
       <div class="content-wrap">
-        <article class="article intro">
-          <header>
-            <p class="date"><span>05. October 2015</span></p>
-            <h2><a href="/articles/20151005-review-for-3-node-frameworks/">三个Node框架使用过后的心得</a></h2>
-          </header>
+        <article class="article">
           <section class="content"><p>从开始写第一行Node的代码到现在，已经过了一年了。这一年里，我使用了不同的Node框架来完成我的项目。我在这里就发表些用后感和遇到的问题。</p>
 <h3 id="express-js">Express.js</h3>
 <p>第一份项目就是使用Express.js，那时候对它的唯一抱怨是没有像<span class="caps">MVC</span>的文件结构。但是，整个项目还算完成。我用Sequelize.js和MySQL沟通。整体来说，没有什么问题，Express.js教程很多，你时常遇到的问题，通常都会找到响应的组件。</p>
@@ -33,24 +28,13 @@
 <p>开始第二份项目的时候，为了解决无文件结构问题，我选择了Strongloop。开始觉得它非常酷，可以用<span class="caps">GUI</span>创建资料库。当你发布后，他也备有监控GUI，让你可以轻松发现你软件的问题。但是，我没有等到发布，就换了别的框架。他最大的问题是它把所有东西都放在Model里头。字面上Model的确能够代表很多东西。但是，当你Models文件夹里面有很多文件，而且每个文件都有千多行代码。老实说，维护起来，真的会死人。</p>
 <h3 id="sails-js">Sails.js</h3>
 <p>Sails.js是最近的项目才开始使用的框架。其实用起来和Express.js无差。它有<span class="caps">MVC</span>的文件结构。我对它唯一的不满是它本身备有的Waterline&nbsp;ORM还没有支持Transaction。这个对SQL资料库来说，其实还蛮重要的。当然，你可以找到一些Hack的方法。但是，都不是些洁净的方法。顺带说一句，我对它有点担忧，感觉上它好像停滞了很久，也没有什么更新。</p>
-
-          </section>
-        </article>
-        <article class="article intro">
-          <header>
-            <p class="date"><span>15. April 2015</span></p>
-            <h2><a href="/articles/20150415-Moved-to-github/">Moved to github</a></h2>
-          </header>
-          <section class="content"><p>很久以前，我已经有想法，把部落格搬来Github。今天做到了！&nbsp;虽然还在测试，希望真的能够搬出来，Blogspot太多无谓东西了。</p>
-
-          </section>
+</section>
         </article>
       </div>
     </div>
     <footer>
       <div class="content-wrap">
-        <div class="nav"><a href="/archive.html">« Archives</a>
-        </div>
+        <div class="nav"><a href="/">« Full blog</a></div>
         <section class="about">
         </section>
         <section class="copy">

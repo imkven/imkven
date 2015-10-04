@@ -5,9 +5,24 @@
     <atom:link href="http://imkven.github.io/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://imkven.github.io</link>
     <description></description>
-    <pubDate>Wed, 15 Apr 2015 08:00:00 +0800</pubDate>
+    <pubDate>Mon, 05 Oct 2015 08:00:00 +0800</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>三个Node框架使用过后的心得</title>
+      <link>http://imkven.github.io/articles/20151005-review-for-3-node-frameworks/</link>
+      <pubDate>Mon, 05 Oct 2015 08:00:00 +0800</pubDate>
+      <guid isPermaLink="true">http://imkven.github.io/articles/20151005-review-for-3-node-frameworks/</guid>
+      <author></author>
+      <description>&lt;p&gt;从开始写第一行Node的代码到现在，已经过了一年了。这一年里，我使用了不同的Node框架来完成我的项目。我在这里就发表些用后感和遇到的问题。&lt;/p&gt;
+&lt;h3 id=&quot;express-js&quot;&gt;Express.js&lt;/h3&gt;
+&lt;p&gt;第一份项目就是使用Express.js，那时候对它的唯一抱怨是没有像MVC的文件结构。但是，整个项目还算完成。我用Sequelize.js和MySQL沟通。整体来说，没有什么问题，Express.js教程很多，你时常遇到的问题，通常都会找到响应的组件。&lt;/p&gt;
+&lt;h3 id=&quot;strongloop&quot;&gt;Strongloop&lt;/h3&gt;
+&lt;p&gt;开始第二份项目的时候，为了解决无文件结构问题，我选择了Strongloop。开始觉得它非常酷，可以用GUI创建资料库。当你发布后，他也备有监控GUI，让你可以轻松发现你软件的问题。但是，我没有等到发布，就换了别的框架。他最大的问题是它把所有东西都放在Model里头。字面上Model的确能够代表很多东西。但是，当你Models文件夹里面有很多文件，而且每个文件都有千多行代码。老实说，维护起来，真的会死人。&lt;/p&gt;
+&lt;h3 id=&quot;sails-js&quot;&gt;Sails.js&lt;/h3&gt;
+&lt;p&gt;Sails.js是最近的项目才开始使用的框架。其实用起来和Express.js无差。它有MVC的文件结构。我对它唯一的不满是它本身备有的Waterline ORM还没有支持Transaction。这个对SQL资料库来说，其实还蛮重要的。当然，你可以找到一些Hack的方法。但是，都不是些洁净的方法。顺带说一句，我对它有点担忧，感觉上它好像停滞了很久，也没有什么更新。&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Moved to github</title>
       <link>http://imkven.github.io/articles/20150415-Moved-to-github/</link>
