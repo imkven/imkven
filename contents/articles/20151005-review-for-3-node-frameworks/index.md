@@ -3,6 +3,8 @@ title: 三个Node框架使用过后的心得
 author: imkven
 date: 2015-10-05
 template: article.jade
+intro: 从开始写第一行Node的代码到现在，已经过了一年了。这一年里，我使用了不同的Node框架来完成我的项目。我在这里就发表些用后感和遇到的问题...
+hasMore: true
 ---
 
 从开始写第一行Node的代码到现在，已经过了一年了。这一年里，我使用了不同的Node框架来完成我的项目。我在这里就发表些用后感和遇到的问题。

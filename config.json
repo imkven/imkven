@@ -3,7 +3,7 @@
     "url": "http://imkven.github.io",
     "name": "I'm Kven",
     "owner": "imkven",
-    "description": ""
+    "description": "Be humble, keep exploring"
   },
   "plugins": [
     "./plugins/paginator.coffee"

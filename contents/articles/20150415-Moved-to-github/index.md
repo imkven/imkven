@@ -3,6 +3,8 @@ title: Moved to github
 author: imkven
 date: 2015-04-15
 template: article.jade
+intro: false
+hasMore: false
 ---
 
 很久以前，我已经有想法，把部落格搬来Github。今天做到了！
